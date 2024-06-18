@@ -4,7 +4,7 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/ordercgidevdb?allowPublicKeyRetrievel=true&useSSL=false&createDatabseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/ordercgidevdb?allowPublicKeyRetrieval=true&useSSL=false&createDatabaseIfNotExist=true
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -15,7 +15,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-    datanase-platform: org.hibernate.dialect.MySQL8Dialect
+    database-platform: org.hibernate.dialect.MySQL8Dialect
     
 eureka:
   client:
